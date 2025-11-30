@@ -26,10 +26,10 @@ if($_SERVER["REQUEST_METHOD"]==="POST") {
 
        //Redirect based on role of user
        if ($_SESSION['role'] ==='admin') {
-         header('Location: admin_portal.html');
+         header('Location: admin_portal.php');
          exit;
        }
-       else{ header('Location: student_resources.html'); exit; }
+       else{ header('Location: resources.php'); exit; }
   }
   else{ // If Invalid login, then redirect back to login page with error 
        header('Location: login.html?error=1');
