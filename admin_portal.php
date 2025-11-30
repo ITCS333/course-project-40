@@ -33,6 +33,12 @@ $adminEmail = $_SESSION['email'];
             </ul>
         </section>
         <section>
+            <h2>Resource Management</h2>
+            <ul>
+                <li><a href="resources.php">Manage Course Resources (CRUD)</li>
+            </ul>
+         </section>
+        <section>
             <h2>Student Management</h2>
             <ul>
                 <li><a href="students.php">Manage Students (CRUD)</a></li>
