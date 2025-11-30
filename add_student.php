@@ -4,7 +4,7 @@ session_start();
 
 if (!isset($_SESSION['email']) || $_SESSION['role'] !== 'admin') {
     header('Location: login.html');
-    exit;
+    exit;}
 
 // Message to show feedback after form submission
 $message = '';
