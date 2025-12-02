@@ -16,4 +16,6 @@ Team members:
 | Task 1 | Student Management + Authentication | Ali Jalal |
 | Task 2 | Course Resources CRUD + Comments | Yusuf Saud |
 
-## A link to your live, hosted application on Replit.
+## A link to your live, hosted application on Replit.:
+
+the link: https://replit.com/@alijalalh5/ITCS333-Course-Project-group-40?v=1
